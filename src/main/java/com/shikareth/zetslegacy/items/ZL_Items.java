@@ -14,4 +14,7 @@ public class ZL_Items {
 
 	public static final RegistryObject<Item> TEMP_ITEM = REGISTRY.register("temp_item", 
 			() -> new Item(new Properties().group(Zetslegacy.ZL_ITEM_GROUP)));
+	
+	public static final RegistryObject<Item> ZL_BOOK = REGISTRY.register("arc_wardens_diary", 
+			() -> new Item(new Properties().group(Zetslegacy.ZL_ITEM_GROUP)));
 }

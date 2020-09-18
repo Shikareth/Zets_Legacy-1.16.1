@@ -26,7 +26,6 @@ public class Zetslegacy
         }
      });
     
-    
     public Zetslegacy() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);

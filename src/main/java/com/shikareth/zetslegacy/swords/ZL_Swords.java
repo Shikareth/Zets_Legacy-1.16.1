@@ -14,6 +14,6 @@ public class ZL_Swords {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, Zetslegacy.MODID);
 
 	public static final RegistryObject<SwordItem> TEMP_SWORD = REGISTRY.register("temp_sword", 
-			() -> new ZL_SwordBase(ItemTier.DIAMOND, 3, -2.4F, new Item.Properties()));
+			() -> new ZL_SwordBase(ItemTier.DIAMOND, 3, -2.4F, new Item.Properties().group(Zetslegacy.ZL_ITEM_GROUP)));
 	
 }
